@@ -1,0 +1,1204 @@
+body,ul{
+    margin: 0 !important;
+    
+    
+}
+body{
+font-size: 16px;
+}
+/* nav{
+    width: 100%;
+    height: 8vh;
+    background-color:white;
+    display: flex;
+    position: fixed;
+    left: 10%;
+    top: 30%;
+    z-index: 10;
+    align-items: center;
+
+} */
+nav{
+   width: 86%;
+   position: fixed !important;
+   left: 7%;
+   top: 2%;
+   z-index: 99;
+}
+nav ul{
+   
+   width: 90%;
+   justify-content: space-evenly;
+}
+
+
+ .moshavere{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 1%;
+    margin-right: auto;
+    
+
+ }
+ 
+
+ section{
+   background: url('../img/orang.png') ;
+    
+    width: 100%;
+    height: 100vh;
+    z-index: 9;
+
+ }
+ .sec1{
+   width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   background:  url('../img/Intersect.png');
+   z-index: 4;
+ }
+ /* .uppic1{
+   width: 447px;
+   height: 20px;
+   border-style: solid;
+   border-width: 2px;
+   position: absolute;
+   top: 20.1%;
+   left: 10%;
+   text-align: end;
+   font-size: 0.70rem;
+   
+  
+   line-height: 20px;
+   
+ }
+ .uppic11{
+transform: rotate(180deg)
+   
+ } */
+ 
+ .pic1{
+    width: 450px;
+    height: 330px;
+    background-image: url('../img/box1-pic.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    z-index: 99;
+
+
+ }
+ /* .downpic1{
+   width: 446px;
+   height: 20px;
+   border-style: solid;
+   border-width: 2px;
+   position: absolute;
+   top: 65%;
+   left: 10.1%;
+
+
+ } */
+ /* .downpic1-2{
+   width: 223px;
+   height: 20px;
+   background-color: white;
+   border-left: 2px solid;
+   line-height: 20px;
+   font-size: 1.25rem;
+   font-style: bold;
+   font-weight: bolder;
+
+ }
+ .downpic1-3{
+   font-size: 0.75rem !important;
+
+ } */
+ .off40{
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   top:50%;
+   /* right: 78%; */
+   left: 17%;
+   z-index: 9999;
+ }
+ .off30{
+   width: 60px;
+   height: 60px;
+   position: absolute;
+   top: 64%;
+   left: 16%;
+   z-index: 999;
+ }
+.speaker{
+   width: 240px;
+   height: 420px;
+   position: absolute;
+   top:47%;
+   left: 4%;
+   z-index: 999;
+   transform: rotate(10deg);
+}
+
+.camp{
+   width: 400px;
+   height: 80px;
+   border-style: solid;
+   border-width: 2px;
+   position: absolute;
+   /* top: 13%;
+   right: 10%; */
+top: 7%;
+right:  2%;
+   
+
+
+}
+.camp1{
+   width: 400px;
+   height: 80px;
+   background-color: white;
+   text-align: center;
+   line-height: 80px;
+   position: relative;
+   top: 9%;
+   right: 10%;
+   
+}
+.camp1 b{
+   font-size: 2rem;
+}
+.jam{
+   width: 500px;
+   height: 80px;
+   border-style: solid;
+   border-width: 2px;
+   position: absolute;
+   top: 7%;
+   right: 2%;
+}
+.jam1{
+width: 500px;
+height: 80px;
+text-align: center;
+line-height: 80px;
+background-color: white;
+position: relative;
+top: 12%;
+right: 10%;
+}
+.jam1 b{
+   font-size: 2rem;
+   
+}
+.text{
+   width: 450px;
+   height: 120px;
+   background-color: transparent;
+   /* border-style: solid; */
+   font-size: 0.80rem;
+   font-weight: bold;
+   position: relative;
+   top:35%;
+   right: 10%;
+   
+}
+.dore{
+   width:120px ;
+   height: 40px;
+   text-decoration: none;
+   color: white;
+   font-size: 0.75rem;
+  background-color: black;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  top: 58%;
+  right: 10%;
+  
+
+}
+.dore1{
+   width:120px ;
+   height: 40px; 
+   position: absolute;
+   top: 5%;
+   right: 2%;
+   border-style: solid;
+   border-width: 1px;
+   border-color: white;
+  
+ 
+}
+.box2{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: white;
+   justify-content: center;
+
+}
+.box2 small{
+   
+   color: #E16744;
+   margin-top: 5%;
+}
+.box2 small::before{
+   content: "";
+   width: 80px;
+   height: 2px;
+   display: inline-block;
+   background-color: #E16744;
+   margin-left: 20px ;
+}
+.box2 b{
+   margin-top: 2%;
+   width: 70%;
+   
+   text-align: center;
+   font-size: 1.75rem;
+   justify-content: center;
+
+}
+.box2 p{
+width: 80%;
+text-align: center;
+font-size: 1.25rem;
+color: #757575;
+margin-top: 2%;
+}
+.box2 img{
+   width: 70px;
+   height: 70px;
+
+}
+.box3{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+   text-align: center;
+   background: url('../img/Intersect1.png'),url('../img/Rectangle\ 2831.png');
+
+
+}
+.box3 small{
+   margin-top: 5%;
+}
+.box3 small::before{
+   content: "";
+   width: 80px;
+   height: 2px;
+   display: inline-block;
+   background-color: black;
+   margin-left: 20px ;
+}
+.box3-b{
+   /* font-size: 1.75rem !important; */
+   margin-top: 2%;
+
+}
+.box3-p{
+   width: 80%;
+   font-size: 0.9rem;
+   text-align: center;
+}
+.box3 i{
+   margin-right: 20px;
+}
+.box3-1{
+display: flex;
+width: 100%;
+flex-flow: row wrap;
+width: 90%;
+margin-top: 4%;
+/* background-color: bisque; */
+justify-content: center;
+
+}
+.box3-1 img{
+   margin-right: 20px;
+   
+   
+}
+.box3-1 b{
+   margin-right: 20px;
+   width: 90%;
+   
+
+}
+.box3-1 p{
+   
+   /* width: 18.5vw; */
+   margin-right: 5%;
+}
+.box3-1 a{
+   margin-right: 5%;
+   text-decoration: none;
+   color: black;
+   width: 190px;
+   /* background-color: #E16744; */
+}
+.multi{
+width: 28%;
+height: auto;
+background-color: white;
+display: flex;
+/* position: relative; */
+margin-left: 5%;
+margin-top: 5%;
+
+
+}
+.multi1{
+   width: 100%;
+   height: 100%;
+   border:2px solid;
+   display: flex;
+   text-align: right;
+   flex-direction: column;
+   justify-content: center;
+   position: relative;
+   right: 5%;
+   top: 3%;
+   
+  
+   
+
+   
+}
+.noname{
+   width: 28%;
+   height: auto;
+   background-color: black;
+   color: white;
+   display: flex;
+   /* position: relative; */
+   margin-left: 5%;
+   margin-top: 5%;
+}
+.noname1{
+   width: 100%;
+   height: 100%;
+   border:2px solid;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   position: relative;
+   text-align: right;
+   top: 5%;
+   right: 5%;
+}
+.nonamea{
+   color: white !important;
+}
+.box4{
+   width: 100%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: white;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+.box4-1{
+   width: 20%;
+   height: 25vh;
+   display: flex;
+   text-align: center;
+   /* background-color: aqua; */
+  
+  align-content: flex-end;
+  margin-top: 10%;
+}
+.box4-1-1{
+   display: flex;
+   flex-direction: column;
+   /* background-color: antiquewhite; */
+   width: auto;
+   height: auto;
+   margin-top: 10%;
+   align-items: flex-start;
+   
+   
+}
+.box4-1-1 b{
+   font-size: 2rem;
+}
+.box4-1-1 span{
+   font-size: 0.85rem;
+   font-weight: bold;
+}
+.box5{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   background: url('../img/box5-1.png'),url('../img/box5.png');
+   align-items: center;
+   text-align: center;
+   /* justify-content: center; */
+}
+.box5 small{
+   
+}
+.box5-small::before{
+   content: '';
+   width: 80px;
+   height: 2px;
+   display: inline-block;
+   background-color:black;
+   margin-left: 20px ;
+   margin-top: 28%;
+
+   
+}
+.box5 b{
+   font-size: 2rem;
+   /* height: 8%;
+   line-height: 8%; */
+   font-weight: 1000;
+   margin-top: 1.5%;
+}
+.box5 p{
+   font-size: 0.9rem;
+   width: 80%;
+   text-align: center;
+}
+.box5-main{
+   /* width: 85%; */
+   height: auto;
+   display: flex;
+   /* flex-flow: row wrap; */
+   
+   /* background-color: beige; */
+   
+   margin-top: 4%;
+}
+.box5same{
+   display: flex;
+   flex-direction: column;
+  /* justify-content:space-evenly; */
+   text-align: center;
+   align-items: center;
+}
+.box5same b{
+   font-size: 1rem;
+   
+}
+.box5same p{
+   font-size: 0.9rem;
+}
+.box5-1{
+/* width: 47%; */
+height: auto;
+background-color: white;
+display: flex;
+/* position: relative; */
+
+
+}
+.box5-1-1{
+   width: 100%;
+height: 100%;
+border: 2px solid black;
+display: flex;
+position: relative;
+
+
+
+}
+.box5-2{
+   /* width: 47%; */
+   height: auto;
+   background-color: white;
+   /* position: relative; */
+   }
+   .box5-2-1{
+      width: 100%;
+   height: 100%;
+   border: 2px solid black;
+   position: relative;
+
+   
+   
+   }
+   .box5-3{
+      /* width: 47%; */
+      /* position: relative; */
+      background-color: white;
+      /* bottom: 20%; */
+      
+      }
+      .box5-3-1{
+         width: 100%;
+      height: 100%;
+      border: 2px solid black;
+         position: relative;
+        
+
+      
+      
+      }
+      .box5-endp{
+         width: 48% !important;
+         margin-top: 5%;
+
+      }
+      .box5 span{
+         color: #eef57d;
+      }
+      @media only screen and (min-width: 1200px){
+         nav ul li a{
+            font-size: 1.1rem !important;
+         }
+         .camp1{
+            top: 22%; 
+         }
+         .jam1{
+            top: 30%;
+         }
+         .text{
+            top:47%;
+         }
+         .box3 b{
+            font-size: 1.75rem;
+            width: 90% !important;
+            margin-top: 5%;
+         }
+         .box3 p{
+            width: 90%;
+            font-size: 1rem;
+            margin-top: 5% ;
+            
+         }
+         .box3-1 b{
+            font-size: 1rem;
+         }
+         .box3-1 p{
+            font-size: 0.7rem;
+         }
+         .box3-1 a{
+            margin-bottom: 7%;
+         }
+         .multi{
+            margin-bottom: 5%;
+         }
+         .noname{
+            margin-bottom: 5%;
+         }
+         .box3-1 img{
+            margin-top: 2%;
+         }
+
+         .box5-main{
+            width: 85%;
+            height: 75vh;
+            flex-flow: row wrap;
+            
+         }
+           
+            
+            
+            
+         
+         .box5-1, .box5-2{
+            width: 51%;
+            height: 40%;
+            margin-top: 5%;
+         }
+         .box5-1-1, .box5-2-1{
+           top: 4%;
+           right: 3%;
+         }
+       
+         .box5-3{
+           
+            width: 43%;
+            height: 88%;
+            
+            position: relative;
+            bottom: 40%;
+            right: 8%;
+   
+         }
+         .box5-3-1{
+            margin-top: 2%;
+            margin-right: 3%;
+         }
+         .box5-1-1 b, .box5-2-1 b, .box5-3-1 b{
+            font-size: 1.85rem;
+         }
+         .box5-1-1 p, .box5-2-1 p, .box5-3-1 p{
+            font-size: 1.1rem;
+            margin-bottom: 5%;
+         }
+
+      }
+
+      @media only screen and (max-width: 1200px){
+         nav ul li a{
+            font-size: 0.8rem !important;
+           
+         }
+         .pic1{
+            width: 23%;
+            height: 28%;
+         }
+         .dore{
+            top: 57%;
+         }
+         .text{
+            top: 1%;
+         }
+         .off30{
+            left: 24%;
+         }
+         .off40{
+            left: 26%;
+         }
+         .camp1{
+            top: 20%; 
+         }
+         .jam1{
+            top: 26%;
+         }
+         .text{
+            top:45%;
+         }
+        
+         .box2 b{
+            font-size: 1.25rem;
+            width: 100% !important;
+         }
+        
+         .box3 b{
+            font-size: 1.5rem;
+            width: 90% !important;
+            margin-top: 5%;
+         }
+         .box3 p{
+            width: 90%;
+            font-size: 1rem;
+            margin-top: 5% ;
+            
+         }
+         .multi{
+            width: 45%;
+            margin-bottom: 5%;
+         }
+         .multi1{
+            width: 100%;
+           text-align: right;
+           margin-top: 2%;
+           
+         }
+         .multi b{
+            font-size: 1.2rem;
+         }
+         .multi p{
+            font-size: 0.9rem;
+            width: 85%;
+         }
+         .multi a{
+            margin-bottom: 5%;
+         }
+         .noname{
+            width: 45%;
+            margin-bottom: 5%;
+         }
+         .noname1{
+            width: 100%;
+            text-align: right;
+           
+           margin-right: 1%;
+         }
+         .noname1 b{
+            font-size: 1.2rem;
+            width: 80% !important ;
+            margin-bottom: 5%;
+         }
+         .noname p{
+            font-size: 0.9rem;
+            width: 85%;
+            margin-bottom: 5%;
+         }
+         .noname a{
+           margin-bottom: 10%;
+         }
+         
+         .box4-1{
+         width: 21% ;
+         justify-content: center;
+         margin-bottom: 10%;
+
+      }
+     
+          .box4-1-1 b{
+         font-size: 3vw ;
+      } 
+          .box4-1-1 span{
+        font-size: 1.5vw ;
+        
+      }
+         .box4-1 img{
+         margin-left: 5% !important;
+      }
+      
+         .box5-main{
+         width: 85%;
+         height: 70vh;
+         flex-flow: row wrap; 
+        
+      }
+
+          .box5-1, .box5-2{
+         width: 51%;
+         height: 40%;
+         margin-top: 5%;
+      }
+         .box5-1-1, .box5-2-1{
+        top: 4%;
+        right: 3%;
+      }
+        
+         .box5-3{
+         
+         width: 43%;
+         height: 90%;
+         
+         position: relative;
+         bottom: 40%;
+         right: 5%;
+
+      }
+         .box5-3-1{
+         margin-top: 2%;
+         margin-right: 3%;
+      }
+         .box5-1-1 b, .box5-2-1 b, .box5-3-1 b{
+         font-size: 1.65rem;
+      }
+         .box5-1-1 p, .box5-2-1 p, .box5-3-1 p{
+         font-size: 1rem;
+         margin-bottom: 5%;
+      }
+
+      }
+   
+      
+      @media only screen and (max-width: 991px){
+         .pic1{
+            display: none;
+         }
+         .off40{
+            display: none;
+         }
+         .off30{
+            display: none;
+
+         }
+         .moshavere{
+            position: fixed;
+            right: 8%;
+            bottom: 5%;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            font-size: 0.85rem;
+            line-height: 80px;
+            box-shadow:5px 10px 15px #757575cb;
+         }
+         .speaker{
+            display: none;
+         }
+         .camp1{
+            top: 22%;
+            width: 60%;
+         }
+         .camp{
+            width: 100%;
+         }
+         .jam1{
+            top: 29%;
+            width: 70%;
+         }
+         .jam{
+            width: 100%;
+         }
+         .text{
+            width:80%;
+            top:45%;
+            font-size: 1rem;
+            
+         }
+         .box2 b{
+            font-size: 1.2rem;
+            width: 95% !important;
+         }
+         .box2 p{
+            font-size: 1rem;
+            
+         }
+         .box2 small::before{
+            height: 1.5px;
+            width: 60px;
+            margin-left: 12px !important;
+         }
+         .box3 small::before{
+            height: 1.5px;
+            width: 60px;
+            margin-left: 12px !important;
+         }
+         .box3 b{
+            font-size: 1.25rem;
+            width: 90% !important;
+            margin-top: 5%;
+         }
+         .box3 p{
+            width: 90%;
+            font-size: 0.8rem;
+            margin-top: 5% ;
+            
+         }
+         .multi{
+            width: 45%;
+            margin-bottom: 5%;
+         }
+         .multi1{
+            width: 100%;
+           text-align: right;
+           margin-top: 2%;
+           
+         }
+         .multi b{
+            font-size: 0.9rem;
+         }
+         .multi p{
+            font-size: 0.7rem;
+            width: 85%;
+         }
+         .multi a{
+            margin-bottom: 5%;
+         }
+         .noname{
+            width: 45%;
+            margin-bottom: 5%;
+         }
+         .noname1{
+            width: 100%;
+            text-align: right;
+           
+           margin-right: 1%;
+         }
+         .noname1 b{
+            font-size: 1rem;
+            width: 80% !important ;
+            margin-bottom: 5%;
+         }
+         .noname p{
+            font-size: 0.7rem;
+            width: 85%;
+            margin-bottom: 5%;
+         }
+         .noname a{
+           margin-bottom: 10%;
+         }
+         .box4-1{
+            width: 45%;
+            justify-content: center;
+   
+         }
+        
+         .box4-1-1 b{
+            font-size: 4vw;
+         } 
+         .box4-1-1 span{
+           font-size: 1.75vw;
+           
+         }
+         .box4-1 img{
+            margin-left: 5% !important;
+         }
+         
+         .box5-small::before{
+            height: 1.5px;
+            width: 60px;
+            margin-left: 10px !important; 
+         }
+         .box5 b{
+            font-size: 1.5rem;
+            width: 95% !important;
+            margin-top: 5%;
+         }
+         .box5 p{
+            width: 95%;
+            font-size: 0.8rem;
+            margin-top: 5%;
+            
+         }
+         .box5-main{
+            width: 85%;
+            height: auto !important;
+            flex-flow: row wrap;
+            justify-content: center;
+
+            
+         }
+         .box5-1, .box5-2{
+            width: 90%;
+            height: auto;
+            margin-top: 5%;
+         }
+         .box5-1-1, .box5-2-1{
+           top: 4%;
+           right: 3%;
+         }
+       
+         .box5-3{
+            
+            width: 90%;
+            height: auto;
+            /* margin-right: 5%; */
+            position: static;
+            margin-top: 5%;
+            /* bottom: 40%;
+            right: 8%; */
+
+   
+         }
+         .box5-3-1{
+            margin-top: 2%;
+            margin-right: 3%;
+         }
+         .box5-1-1 b, .box5-2-1 b, .box5-3-1 b{
+            font-size: 1.65rem;
+         }
+         .box5-1-1 p, .box5-2-1 p, .box5-3-1 p{
+            font-size: 1rem;
+            margin-bottom: 5%;
+         }
+         
+      }
+
+
+      @media only screen and (max-width: 600px){
+         .pic1{
+            display: none;
+         }
+         .off40{
+            display: none;
+         }
+         .off30{
+            display: none;
+
+         }
+         .speaker{
+            display: none;
+         }
+         .camp1{
+            top: 22%;
+            width: 60%;
+            
+         }
+         .camp1 b{
+            font-size: 1.5rem ;
+         }
+         .camp{
+            width: 100%;
+         }
+         .jam1{
+            top: 29%;
+            width: 70%;
+            
+         }
+         .jam1 b{
+            font-size: 1.5rem ;
+         }
+         .jam{
+            width: 100%;
+         }
+         .text{
+            width: 75%;
+            top: 45%;
+            font-size: 0.75rem;
+         }
+         .box2 b{
+            font-size: 1rem;
+            width: 95% !important;
+            margin-top: 5%;
+         }
+         .box2 p{
+            font-size: 0.75rem;
+            
+         }
+         .box2 small{
+            font-size: 0.6rem;
+         }
+         .box2 small::before{
+            height: 1px;
+            width: 60px;
+            margin-left: 10px !important;
+         }
+         .box3 small{
+            font-size: 0.6rem;
+         }
+         .box3 small::before{
+            height: 1px;
+            width: 60px;
+            margin-left: 10px !important;
+         }
+         .box3 b{
+            font-size: 1rem;
+            width: 95% !important;
+            margin-top: 5%;
+         }
+         .box3 p{
+            width: 95%;
+            font-size: 0.7rem;
+            margin-top: 5%;
+            
+         }
+         .multi{
+            width: 85%;
+         }
+         .multi1{
+            width: 100%;
+           text-align: right;
+           margin-top: 2%;
+           
+         }
+         .multi b{
+            font-size: 1.5rem;
+         }
+         .multi p{
+            font-size: 1rem;
+            width: 85%;
+         }
+         .multi a{
+            margin-bottom: 5% ;
+         }
+         .noname{
+            width: 85%;
+            /* margin-bottom: 10%; */
+         }
+         .noname1{
+            width: 100%;
+            text-align: right;
+           /* margin-top: 1%; */
+           margin-right: 1%;
+         }
+         .noname1 b{
+            font-size: 1.25rem;
+            width: 80% !important;
+         }
+         .noname p{
+            font-size: 1rem;
+            width: 85%;
+            
+         }
+         
+         .box4-1{
+            width: 80%;
+            
+            justify-content: center;
+           
+            
+         }
+         .box4-1 img{
+            margin-top: 5%;
+           
+         }
+         .box4-1-1 b{
+            font-size: 2.5rem;
+         } 
+         .box4-1-1 span{
+           font-size: 1.25rem;
+           
+         }
+         .box4-1 img{
+            margin-left: 5% !important;
+         }
+         .box5-small{
+            font-size: 0.7rem;
+         }
+         .box5-small::before{
+            height: 1px;
+            width: 60px;
+            margin-left: 10px !important; 
+         }
+         .box5 b{
+            font-size: 1.25rem;
+            width: 95% !important;
+            margin-top: 5%;
+         }
+         .box5 p{
+            width: 95%;
+            font-size: 0.7rem;
+            margin-top: 5%;
+            
+         }
+         .box5-main{
+            width: 85%;
+            flex-flow: row wrap;
+            /* background-color: #eef57d; */
+            
+         }
+         .box5-1, .box5-2{
+            width: 90%;
+            margin-top: 5%;
+            
+         }
+         .box5-1-1, .box5-2-1{
+           top: 4%;
+           right: 3%;
+           
+         }
+         .bold-text-box5{
+            font-size: 1.25rem !important;
+         }
+        .normal-text-box5{
+         font-size: 1rem !important;
+        }
+         .box5-3{
+            
+            width: 90%;
+         }
+         .box5-3-1{
+            /* top: 2% !important;
+            right: 1% !important; */
+         }
+        
+         .box5-1-1 b, .box5-2-1 b, .box5-3-1 b{
+            font-size: 1.75rem;
+         }
+         .box5-1-1 p, .box5-2-1 p, .box5-3-1 p{
+            font-size: 1rem;
+            margin-bottom: 5%;
+         }
+         .box5-3-1 b{
+            font-size: 1.25rem;
+         }
+         .box5-3-1 p{
+            font-size: 1rem;
+         }
+      }
